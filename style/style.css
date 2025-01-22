@@ -450,14 +450,10 @@
   margin-left: 140px;
   width: 100%;
   padding-top: 60px;
-
-
 }
 .foot-logo{
   width:64px;
   height:64px;
-
-
 }
 .foot-head{
   margin: 0;
@@ -478,7 +474,6 @@
   color: white;
   font-size: 1.25rem;
   font-weight: 400;
-
 }
 .foot-menu{
   text-align: left;
@@ -505,7 +500,6 @@
   max-width: 250px;
   width: 100%;
   text-align: left;
-
 }
 .touch{
   padding-left: 40px;
@@ -586,10 +580,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 400px;
-
   }
   .blok-2{
-
     position: relative;
     border-radius: 1rem;
     background-color: white;
@@ -714,7 +706,6 @@
     display: flex;
     flex-direction: column;
     max-width: 400px;
-
     width: 100%;
     margin-left: 0;
     margin-top: 80px;
@@ -748,10 +739,20 @@
     margin: 0;
     justify-content: center;
   }
+  .foot-about{
+    margin-bottom: 0;
+    padding-left: 20px;
+    text-align: left;
+    align-items: center;
+  }
+  .foot-main-menu{
+    margin: 0;
+    padding-left: 20px;
+    text-align: left;
+  }
   .social{
     display: flex;
     flex-direction: column;
-
     margin: 0;
     padding: 0;
   }
@@ -771,17 +772,7 @@
     margin: 0;
     padding-left: 20px;
   }
-  .foot-about{
-    margin-bottom: 0;
-    padding-left: 20px;
-    text-align: left;
-    align-items: center;
-  }
-  .foot-main-menu{
-    margin: 0;
-    padding-left: 20px;
-    text-align: left;
-  }
+
 }
 
   
