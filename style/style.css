@@ -710,51 +710,59 @@
     top: -18px;
   }
   .foot-container{
+    height: 1300px;
     display: flex;
     flex-direction: column;
     max-width: 400px;
-    max-height:700px;
+
     width: 100%;
     margin-left: 0;
-    margin-top: 100px;
+    margin-top: 80px;
+  }
+  .foot-sub{
+    margin-left: 25px;
   }
   .foot-logo{
-    margin: 8px;
     text-align: left;
   }
   .foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 8px;
   }
   .foot-head{
-    padding-left: 50px;
+    padding-left: 30px;
   }
 
   .foot-text{
-    margin: 0;
+    margin-left: 18px;
     text-align: left;
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
   }
   .foot-menu{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 30px;
     margin: 0;
     justify-content: center;
   }
   .social{
     display: flex;
     flex-direction: column;
-    height: 300px;
+
     margin: 0;
     padding: 0;
   }
   .touch{
+    max-height:100px;
     text-align: center;
     margin:50px 10px 10px 20px; 
     padding: 0;
   }
   .social-logo{
+    max-height:500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
